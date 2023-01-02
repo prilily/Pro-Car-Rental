@@ -1,22 +1,39 @@
-Car Rental Agency
-A real-life system for car rental agencies and their customers.
+# Car Rental Website
 
-Features
-Two types of users: Customers and Car Rental Agencies
-Registration pages for both types of users
-Login pages for both types of users
-Add new cars page for Car Rental Agencies to add details of cars available for rental (model, number, seating capacity, rent per day)
-Edit details of a particular car for Car Rental Agencies
-Available cars to rent page for all users to view details of available cars and rent them (model, number, seating capacity, rent per day, input for number of days and start date to rent)
-View booked cars page for Car Rental Agencies to see list of customers who have booked their cars
-Technologies
-Front-end: HTML/CSS/JS with Bootstrap
-Backend: core PHP or PHP CodeIgniter framework with MySQL database
-Focus
-Neat and simple design
-Good database architecture
-Good coding practices (readable, modular code)
-DATABASE SCHEMA
+A website that allows users to rent cars and car rental agencies to add cars for rent.
+
+## Features
+- Registration pages for customers and car rental agencies
+- Login pages for customers and car rental agencies
+- Add new cars page for car rental agencies to add details of new cars available for rental
+- Available cars to rent page that displays all available cars to rent and allows customers to book them
+- Car agency view booked cars page that allows agencies to see the list of customers who have booked their cars
+
+## Technologies
+- Front-end: HTML, CSS, JS (with Bootstrap)
+- Backend: PHP
+- Database: MySQL
+
+## Requirements
+- A web server (such as Apache)
+- PHP and MySQL
+
+## Installation
+1. Download and extract the source code
+2. Import the `car_rental.sql` file into your MySQL database
+3. Update the database configuration in `application/config/database.php`
+4. Upload the source code to your web server
+5. Access the website through your web browser
+
+## Usage
+1. Register as a customer or car rental agency
+2. Login to your account
+3. If you are a car rental agency, you can add new cars for rent by clicking on the "Add New Cars" button
+4. If you are a customer, you can browse and book available cars on the "Available Cars to Rent" page
+5. If you are a car rental agency, you can view the list of customers who have booked your cars on the "View Booked Cars" page
+
+
+#DATABASE SCHEMA
 
 
 ![](images/db-schema.png)
