@@ -3,7 +3,7 @@ As a car rental agency, you can also use our website to list your cars and manag
 DATABASE SCHEMA
 
 
-![images/db-schema.png]
+![](images/db-schema.png)
 
 This class diagram shows :
 Customers --* Rentals
