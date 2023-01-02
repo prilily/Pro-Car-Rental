@@ -1,5 +1,21 @@
-The pro-car rental is a convenient platform for customers to rent cars from trusted agencies. The website is easy to use and allows customers to browse and book available cars with just a few clicks.
-As a car rental agency, you can also use our website to list your cars and manage bookings. Simply create an account, add your cars, and start renting them out to customers.
+Car Rental Agency
+A real-life system for car rental agencies and their customers.
+
+Features
+Two types of users: Customers and Car Rental Agencies
+Registration pages for both types of users
+Login pages for both types of users
+Add new cars page for Car Rental Agencies to add details of cars available for rental (model, number, seating capacity, rent per day)
+Edit details of a particular car for Car Rental Agencies
+Available cars to rent page for all users to view details of available cars and rent them (model, number, seating capacity, rent per day, input for number of days and start date to rent)
+View booked cars page for Car Rental Agencies to see list of customers who have booked their cars
+Technologies
+Front-end: HTML/CSS/JS with Bootstrap
+Backend: core PHP or PHP CodeIgniter framework with MySQL database
+Focus
+Neat and simple design
+Good database architecture
+Good coding practices (readable, modular code)
 DATABASE SCHEMA
 
 
