@@ -14,6 +14,7 @@ Rentals --* CarRentalAgency
 
 
 FILE STRUCTURE
+```bash
 ├──── index.php   		[ landing page of the website ]        
 ├── config	   			[ utility functions folder ]
 │   ├── database.php   			[ manages the connection with the database ]
@@ -55,4 +56,4 @@ FILE STRUCTURE
 │   └── rent_detail.php                                 [ page to view details about a particular booking]
 
 
-
+```
